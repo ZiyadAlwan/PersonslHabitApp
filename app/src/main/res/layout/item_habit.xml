@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:elevation="2dp"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/tvHabitName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Habit Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:id="@+id/tvHabitDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a dummy description of the habit."
+        android:textSize="14sp"
+        android:paddingBottom="10dp" />
+
+    <Button
+        android:id="@+id/btnMarkCompleted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark as Completed"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/btnViewHistory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View History"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/btnDeleteHabit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_light"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
